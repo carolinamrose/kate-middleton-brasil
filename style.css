@@ -1,0 +1,267 @@
+/*
+Theme Name: Kate Middleton Brasil
+Version: 1
+Theme URI: katemiddletonbrasil.com
+Author: Carolina
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,ins,kbd,q,s,samp,small,strike,b,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-family:inherit;font-size:100%;font-style:inherit;font-weight:inherit;outline:0;vertical-align:baseline;margin:0;padding:0;}
+:focus{outline:0;}
+
+ol,ul { 
+list-style: none;
+}
+table {
+border-collapse: separate;
+border-spacing: 0;
+}
+caption,th,td{
+font-weight:normal;
+text-align:left;
+}
+
+blockquote {
+background: #fcfcfc;
+border-left: 1px dashed #ccc;
+border-bottom: 1px dashed #ccc;
+border-right: 1px dashed #ccc;
+border-top: 1px dashed #ccc;
+color: #a5a4a4;
+font-style: italic;
+margin: 30px;
+padding: 30px;
+}
+
+
+p {
+  line-height: 18px;   /* within paragraph */
+  margin-bottom: 15px; /* between paragraphs */
+  }
+
+b,strong {
+color: #7e6f7e;
+font-weight: 700;
+}
+
+i, em {
+color: #7c717c;
+font-style: italic;
+}
+
+d {
+color: #fff;
+font-weight: 700;
+}
+
+small{
+font-size: 10px;
+}
+
+big{
+font-size: 16px;
+}
+
+img{
+background: #fff;
+margin: 0;
+padding: 0px; 
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+h1,h2,h3,h4,h5,h6{font-weight:bold;}
+
+a{
+color: #807780;
+text-decoration: none;
+outline: 0;
+}
+
+.widget a{
+color:#807780;
+text-decoration: none;
+outline: 0;
+}
+
+body{
+background: #ebe7df;
+font: normal 13px/150% Arial, Helvetica, sans-serif;
+color: #363636;}
+  
+html, body{
+background: #ebe7df;
+height: 100%; 
+font-family: Open Sans; 
+text-align: justify;
+}
+ 
+#header {background: url(images/header.PNG) center no-repeat; height: 876px; width: 100%;}
+ 
+.conteudo{
+width: 1050px; 
+margin-left: auto; 
+margin-right: auto;
+}
+
+/*--- MENU ---*/
+#menu {height: 100px; line-height: 100px; margin-top: 700px; margin-left: 29%; overflow: hidden; position: absolute; float: center; font-family: Open Sans; text-align: center; font-weight: 900; text-align: center; font-size: 18px; text-transform: uppercase; padding: 10px 17px 10px 12px; z-index: 999!important; }
+#menu a {color: #fff;}
+#menu a:hover {color: #a59e94;}
+#menu li {display: inline; margin-right: 40px;}	
+
+
+/*---SEARCH--*/
+#searchform [type="text"] {background: transparent; border: transparent; color: #fff; font-family: Open Sans; font-style: italic; font-size: 14px; padding-left: 42%; padding-top: 46%; position: absolute;}
+#search-field [type="text"] {font-family: Open Sans; font-style: italic; font-size: 14px; color: #fff;}
+#search-field {font-family: Open Sans; font-style: italic; font-size: 14px; color: #fff;}
+#searchsubmit {background: url('images/ir.png')center no-repeat; width: 30px; height: 30px; border: transparent; float: right; margin-top: 613px; margin-right: 15%;}
+
+/*--- WELCOME --*/
+#welcome {font-family: Open Sans; font-size: 14px; font-weight: 600; color: #fff; font-style: italic; margin-left: 41%; margin-right: 15%; position: absolute; margin-top: -210px; letter-spacing: 0.05px; line-height: 15px;}	
+#welcome b {font-family: Open Sans; font-size: 14px; font-weight: 700; color: #a59e94; font-style: italic;}
+
+/*--- METASLIDER ---*/
+.metaslider .caption,
+.metaslider .cs-title,
+.metaslider .nivo-caption {background: #fff; opacity: 1; width: auto; height: 30px; overflow: hidden; line-height: 20px; font-family: Open Sans; font-size: 12px; font-weight: 800; color: #aa95aa; text-transform: uppercase; margin-left: 10px; margin-bottom: 15px;}
+
+/*--- MINI POSTS ---*/
+#mininoticias {clear: both; width: 1000px; margin: 0 auto; position: relative;}
+
+#miniaturas {float: left; width: 327px; height: 200px; position: relative; background: #ebe7df; margin-right: 10px; margin-bottom: 100px;}
+
+.minititulo {background: url('images/minititulo.PNG'); position: absolute; width: 327px; height: 70px; margin-top: -30px;}
+.minitituloo {position: absolute; width: 322px; font-family: Open Sans; font-size: 14px; font-weight: 900; padding-top: 10px; text-align: center; color: #fff;}
+.minititulo a {color: #fff;}
+.minititulo a:hover {color: #a59e94;}
+
+.minidata {background: url('images/data.png'); position: absolute; width: 60px; height: 20px; margin-top: -135px; margin-left: 1%;}
+.minidataa {font-family: Open Sans; line-height: 30px; color: #a59e94; font-weight: 800; text-align: center; font-size: 8px; text-transform: uppercase; padding-left: 5px; margin-top: -5px; position: absolute;}
+
+#minipost {background: url('images/minipost.png'); width: 327px; height: 90px; float: left; margin-top: 45px; position: relative;}
+#minipost .minipost {width: 312px; font-family: Open Sans; font-style: italic; font-size: 13px; font-weight: 700; color: #fff; line-height: 15px; text-align: left; padding: 10px 0 0 8px;}
+#minipost a {font-family: Open Sans; font-style: italic; font-size: 13px; font-weight: 700; color: #fff;}
+#minipost a:hover {color: #a59e94;}
+#minipost .miniautor {font-family: Open Sans; font-size: 10px; font-weight: 800; color: #fff; width: 312px; text-align: right; text-transform: uppercase; padding-top: 7px; padding-right: 3px;}
+#minipost .miniautor b {font-family: Open Sans; color: #a59e94;  text-transform: uppercase;}
+
+#modocompleto {clear: both; background: url('images/minipost.png'); width: 1000px; height: 40px; margin: 0 auto; position: relative;}
+#modocompleto .modocompleto {font-family: Open Sans; font-size: 14px; font-weight: 800; text-transform: uppercase; text-align: center; color: #fff; padding-top: 10px;}
+#modocompleto .modocompleto a {color: #fff;}
+#modocompleto .modocompleto a:hover {color: #a59e94;;}
+
+/*--- INSTITUICOES PALACIO ---*/
+#instituicoespalacio {clear: both; width: 1000px; height: 282px; margin: 0 auto;}
+
+.instituicoes {float: left; width: 495px; height: 282px; margin-right: 10px; margin-top: 20px;}
+.instit {background: #fff; width: auto; height: 30px; line-height: 30px; position: absolute; font-family: Open Sans; font-size: 12px; font-weight: 800; color: #a9a399; text-transform: uppercase; padding: 0 5px 0 5px; margin-left: 290px; margin-top: 25px;}
+
+.palacio {background: url('images/palacioredes.png'); width: 495px; height: 282px; margin-top: 20px; float: right;}
+.palacio-titulo {font-family: Open Sans; font-size: 14px; font-weight: 900; color: #fff; text-transform: uppercase; text-align: center; width: 275px; margin-left: 100px; margin-top: 30px;}
+.palacio-twitter {background: url('images/twitter-palacio.png'); width: 82px; height: 62px; position: absolute; float: left; margin-left: 125px; margin-top: 70px;}
+.palacio-instagram {background: url('images/instagram-palacio.png'); width: 66px; height: 69px; position: absolute; margin-left: 298px; margin-top: 68px;}
+
+/*--- REDES KMBR ---*/
+#redes {clear: both; width: 1000px; height: 282px; padding-top: 10px; margin: 0 auto;}
+
+#facebook {background: url('images/facebook.png'); width: 330px; height: 224px;}
+#facebook #facebookk {background: #fff; width: auto; height: 30px; line-height: 30px; position: absolute; font-family: Open Sans; font-size: 11px; font-weight: 800; color: #90b1d4; text-transform: uppercase; padding: 0 5px 0 5px; margin-left: 208px; margin-top: 43px;}
+#facebook .face {padding: 80px 0 0 120px;}
+
+#instagram {background: url('images/instagram.png'); width: 330px; height: 223px; margin-top: -224px; margin-left: 335px; position: absolute;}
+#instagram #instagramm {background: #fff; width: auto; height: 30px; line-height: 30px; position: absolute; font-family: Open Sans; font-size: 11px; font-weight: 800; color: #d68f86; text-transform: uppercase; padding: 0 5px 0 5px; margin-left: 200px; margin-right: 2px; margin-top: -15px;}
+#instagram .insta {padding: 12px;}
+
+#youtube {background: url('images/youtube.png'); width: 330px; height: 224px; margin-top: -224px; margin-left: 670px; position: absolute;}
+#youtubee {background: #fff; width: auto; height: 30px; line-height: 30px; position: absolute; font-family: Open Sans; font-size: 11px; font-weight: 800; color: #c95657; text-transform: uppercase; padding: 0 5px 0 5px; margin-right: 2px; margin-left: 230px; margin-top: 43px;}
+#youtube .yout {padding: 90px 0 0 80px;}
+#youtube a {font-family: Open Sans; font-size: 10px; color: #fff;}
+
+#twitter {background: url('images/twitter.png'); width: 435px; height: 220px; margin-top: 5px; font-family: Open Sans; color: #fff;}
+#twitter a {color: #fff;}
+#twitter #twiter {background: #fff; width: auto; height: 30px; line-height: 30px; position: absolute; font-family: Open Sans; font-size: 11px; font-weight: 800; color: #90b1d4; text-transform: uppercase; padding: 0 5px 0 5px; margin-left: 328px; margin-top: -48px;}
+#twitter .twitter {padding: 40px 30px 40px 30px;}
+
+#agenda {background: url('images/agenda.png'); width: 282px; height: 220px; margin-top: -219px; margin-left: 440px; position: absolute;}
+#agenda #agend {background: #fff; width: auto; height: 30px; line-height: 30px; position: absolute; font-family: Open Sans; font-size: 11px; font-weight: 800; color: #a9a399; text-transform: uppercase; padding: 0 5px 0 5px; margin-left: 10px; margin-top: 5px; position: absolute;}
+#agenda #box {width: 200px; height: 150px; background: transparent; padding: 60px 0 0 20px;}
+#agenda #data-agenda {background: #fff; width: auto; height: 20px; position: absolute; font-family: Open Sans; color: #b5b1aa; font-size: 11px; font-weight: 800; padding: 4px 6px 4px 6px;}
+#agenda #evento {font-family: Open Sans; color: #fff; font-size: 11px; font-weight: 800; text-transform: uppercase; text-align: left; padding-left: 50px; padding-top: 5px;}
+
+#parceiros {background: #fff; width: auto; height: 30px; line-height: 30px; position: absolute; font-family: Open Sans; font-size: 11px; font-weight: 800; color: #a9a399; text-transform: uppercase; padding: 0 5px 0 5px; position: absolute; margin-top: -210px; margin-left: 10px;}
+.parceiros {float: right; width: 273px; height: 220px; margin-top: 5px; margin-top: -219px; margin-left: 727px; position: absolute;}
+
+/*--- ULTIMAS GALERIA ---*/
+#ultimas {background: url('images/galeria.png') no-repeat; width: 1000px; height: 153px; margin-top: 5px; margin-bottom: 60px;}
+#ultimas .galeria {font-family: Open Sans; font-size: 16px; color: #fff; text-transform: uppercase; font-weight: 800; padding: 65px 0px 0 50px; width: 100px; text-align: center;}
+#fotos {margin-top: -104px; margin-left: 195px;}
+
+
+/*---ANUNCIOS---*/
+#anuncio {clear: both; background: url('images/anuncio.png'); width: 1000px; height: 100px; margin: 0 auto; margin-bottom:40px; margin-top: -50px;}
+#anuncio .anuncio {width: 1000px; height: 90px; padding: 5px 0 5px 80px; position: absolute;}
+
+.adhost2 {clear: both; background: url('images/ad.png'); width: 1080px; height: 100px; margin: 0 auto; margin-top: 50px;}
+
+/*--POSTS--*/
+#postsesidebar {clear: both; width: 1080px; margin: 0 auto;}
+.posts {width: 690px; float: left; margin-right: 20px; margin-bottom: 20px;}
+.post-content {width: 690px; float: left; color: #3f3e3e; text-align: justify; line-height: 20px; font-size: 12px; margin-bottom: 48px; border: #eee 1px solid;}
+.postsimg {width: 690px; height: 400px; margin-top: 0px; z-index: 3;}
+
+.post-title {background: url('images/titulopost.png')no-repeat; position: absolute; margin-top: -30px; width: 690px; height: 100px;}
+.titulo {width: 670px; font-family: Open Sans; font-size: 17px; font-weight: 900; margin-top: 0px; text-align: center; color: #fff; position: absolute; z-index: 5; padding-left: 5px;  padding-right: 5px;  overflow: hidden;}
+.titulo a {color: #a59e94;}
+.titulo a:hover {color: #fff;}
+
+.datapost {background: url('images/datapost.png'); position: absolute; width: 100px; height: 30px; margin-left: 10px; margin-top: -390px;}
+.data {font-family: Open Sans; color: #a59e94; font-weight: 800; text-align: center; font-size: 11px; text-transform: uppercase; height: 30px; padding-left: 17px; padding-top: 5px; position: absolute;}
+
+#conteudopost {width: 690px; background: #fff; margin-top: 60px; margin-bottom: 40px;}
+#conteudopost .texto {font-family: Open Sans; color: #777; font-size: 14px; text-decoration: none; line-height: 22px; font-weight: 500; line-height: 20px; padding: 4% 3% 5% 3%; z-index: 3;}
+#conteudopost .texto a {color: #000;}
+
+#footerpost {background: url('images/titulopost.png'); position: absolute; margin-top: -60px; width: 690px; height: 60px;}
+#footerpost #autor {background: url('images/user-hover.png')no-repeat; width: 20px; height: 20px; margin-left: 10px; margin-top: 22px;}
+#footerpost #autor #autorr {font-family: Open Sans; color: #fff; font-size: 12px; font-weight: 700; text-transform: uppercase; padding-top: 5px; padding-left: 30px; white-space: nowrap;}
+#footerpost #autor #autorr b {color: #a59e94;}
+
+#comments {width: 640px; float: left; padding-top: -20px;}
+
+#intervalo {width: 640px; height: 20px; background: #ebe7df;}
+
+/*---SIDEBAR---*/
+#sidebar {width: 370px; float: right; margin-bottom: 20px;}
+.sidebar {width: 370px; background: #f5f3f0; float: right;}
+
+.widgetitulo {background: #e2dfda; width: 370px; height: auto; padding: 20px 0px 20px 0px;}
+.widgetituloo {font-family: Open Sans; text-transform: uppercase; font-size: 14px; font-weight: 800; color: #a59e94; text-align: center;}
+.widget {background: #f5f3f0; font-family: Open Sans; font-size: 13px; font-weight: 600; color: #807780; text-align: justify; line-height: 18px; padding: 10px 15px 10px 15px; margin-top: 20px; margin-bottom: 60px;}
+.widget p {line-height: 18px;   /* within paragraph */ margin-bottom: 20px; /* between paragraphs */}
+.widget a {color: #beb7ab;}
+
+#espacinho {width: 370px; height: 10px; background: #ebe7df;}
+
+/*--- FOOTER ---*/ 
+#footer {width: 100% ; height: 460px; background: #ccc1cc; float: left; margin-top: 460px;}
+#footer .foot {font-family: Open Sans; font-size: 14px; font-weight: 800; text-transform: uppercase; color: #fff; margin-top: 50px; padding-left: 28%;  text-align: center; position: absolute;}
+#footer .foot a {color: #626f88;}
+#footer .foot d {color: #807780; font-weight: 800;}
+
+#footer #disclaimer {font-family: Open Sans; font-size: 14px; font-weight: 600; color: #fff; font-style: italic; text-align: center; width: 500px; border: 1px solid #bbadbb; margin-top: 110px; margin-left: 30%; padding: 30px;}
+#footer #disclaimer c {font-family: Open Sans; font-size: 14px; font-weight: 700; color: #fff; font-style: italic;}
+
+#mapasite {font-family: Open Sans; font-size: 14px; font-weight: 600; color: #fff; margin-top: 30px; margin-left: 35%; text-transform: uppercase;}
+#mapasite .column {float: left; width: 30%;}
+#mapasite b {color: #fff; font-weight: 700;}
+#mapasite a {color: #fff;}
+
+.wp-pagenavi {background: #ebe7df; width: 640px; height: 40px; clear: both; float: left; margin: 0; overflow: hidden; font-family: Open Sans; line-height: 40px; text-decoration: uppercase;}
+.wp-pagenavi a{color: #fff;}
+.wp-pagenavi a:hover{color: #fff;background: none;}
+.wp-pagenavi ul{
+float: left;
+margin: 0;
+padding: 0;
+}
+.wp-pagenavi li {
+display: inline-block;
+}
